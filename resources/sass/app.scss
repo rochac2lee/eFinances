@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+$theme-colors: (
+    "primary": #1E90FF
+);
+
+$link-color: #1E90FF;
+
+@import '~bootstrap/scss/bootstrap';
