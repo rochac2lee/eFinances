@@ -4,10 +4,10 @@ namespace Deployer;
 require 'recipe/laravel.php';
 
 // Project name
-set('application', 'my_project');
+set('application', 'eFinances');
 
 // Project repository
-set('repository', 'git@domain.com:username/repository.git');
+set('repository', 'https://github.com/rochac2lee/eFinances.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
@@ -22,8 +22,8 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('project.com')
-    ->set('deploy_path', '~/{{application}}');    
+host('root@45.82.72.105')
+    ->set('deploy_path', '/var/www/eFinances');    
     
 // Tasks
 
